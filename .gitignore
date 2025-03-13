@@ -1,18 +1,6 @@
 # Xjasz Files
-resources/video/*
-resources/data/*
 video/*
-data/epochs/*
-data/prediction/*
-data/*
-data/btc_data/*
-taskmanager_data/
-taskmanager_data/*
-taskmanager_data2/
-taskmanager_data2/*
-taskmanager_logic/
-taskmanager_logic/*
-data/stake_data/
+
 data/stake_data/*
 
 # Byte-compiled / optimized / DLL files
