@@ -307,8 +307,8 @@ def main(g_type, g_size):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Bitcoin Password Generation Script')
-    parser.add_argument('--generator_type', type=str, default='SEED', help='Enter (SEED or WORD) to either generate passwords using random range or random words.')
-    parser.add_argument('--generator_size', type=int, default=1000000, help='The number of base seeds or words that will be generated.')
+    parser.add_argument('--generator_type', type=str, default='WORD', help='Enter (SEED or WORD) to either generate passwords using random range or random words.')
+    parser.add_argument('--generator_size', type=int, default=100000, help='The number of base seeds or words that will be generated.')
     args = parser.parse_args()
     print(f"Starting at -> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"generator_type: {args.generator_type}")

@@ -164,7 +164,7 @@ def main(process_amount):
     with open(processed_file, 'r', encoding='utf-8') as tmpfile:
         line_count = sum(1 for _ in tmpfile)
     processed_count = 0
-    print(f"Now obtaining balances for ({line_count}) items...")
+    print(f"Now checking balances against ({line_count}) items...")
     for seed in main_seeds:
         if processed_count >= process_amount:
             break
